@@ -1,0 +1,24 @@
+python work_tracker.py
+
+del work_tracker.db
+pyinstaller --onefile --windowed --add-data "work_tracker.db;." --clean work_tracker.py
+
+
+rmdir /s /q dist
+rmdir /s /q build
+
+
+
+pyinstaller --onefile --windowed --add-data "D:\projects\work tracker\work_tracker.db;." --clean work_tracker.py
+
+
+
+
+
+
+git:::
+
+git init
+git remote add origin https://github.com/jhmiraz/personal-work-tracker.git
+git status
+git reset
